@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!-- metadata, make sure 'package' is at least 2 segments (ie. com.myproject) -->
+	<meta title="BubblesTiles" package="openfl.samples.bubbles" version="1.0.0" company="OpenFL" />
+	<app path="bin" file="BubblesTiles" main="openfl.samples.bubbles.Main" />
+	
+	<!-- output -->
+	<window background="0xffddff" orientation="landscape" fps="60" />
+	<window width="800" height="600" if="desktop" />
+	<window width="480" height="320" if="flash" />
+	<window width="0" height="0" if="html5" /><!-- 100% -->
+	
+	<!-- classpath, haxe libs -->
+	<source path="src" />
+	<haxelib name="openfl" />
+	<haxelib name="actuate" />
+	
+	<!-- assets -->
+	<icon name="assets/nme.svg" />
+	<assets path="assets" include="*" exclude="nme.svg" />
+</project>
