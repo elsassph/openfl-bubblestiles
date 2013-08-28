@@ -8,7 +8,7 @@ import openfl.samples.bubbles.view.Bath;
 import openfl.samples.bubbles.view.Logo;
 
 /**
- * ...
+ * App controller
  * @author Philippe
  */
 class Bubbles

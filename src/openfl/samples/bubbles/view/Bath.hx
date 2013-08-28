@@ -281,7 +281,6 @@ class Bubble
 	var vx:Float;
 	var vy:Float;
 	var scale:Float;
-	var rotation:Float;
 	var size:Float;
 	
 	function new(w:Int, h:Int)
@@ -291,7 +290,6 @@ class Bubble
 		index = Std.int(Math.random() * 4);
 		vx = vy = 0;
 		scale = (Math.random() * 0.5 + 0.7) * 0.9;
-		rotation = Math.random() * 360;
 		size = 128 * scale / 2;
 	}
 }
